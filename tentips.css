@@ -12,7 +12,7 @@
 
 body {
   font-family: 'charterregular', serif;
-  font-size: 1.4em;
+  font-size: 1.5em;
   line-height: 1.4;
   background: #F9F5E9;
 }
@@ -27,14 +27,20 @@ body {
   width: 85%;
 }
 
+.reference {
+  font-size: 1em;
+}
+
 /* Heading */
 .primary-heading {
 }
 
 /* Main Content */
-ol li {
-  margin-top: 2em;
+.tip {
+  font-size: 2.5em;
 }
+
+/* References */
 
 /* Footer */
 

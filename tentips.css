@@ -1,0 +1,31 @@
+/* Mobile First */
+
+/* General */
+@font-face {
+  font-family: 'charterregular';
+  src: url('font/charter_regular-webfont.eot');
+  src: url('font/charter_regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('font/charter_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'charterregular', serif;
+  width: 85%;
+}
+
+.display {
+  font-family: 'Khula', sans-serif;
+}
+
+/* Heading */
+.primary-heading {
+}
+
+/* Content */
+
+/* Footer */
+
+/* Responsive Desktop */

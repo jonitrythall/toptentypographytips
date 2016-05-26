@@ -50,6 +50,7 @@ a {
 
 /* Main Content */
 .tip {
+  margin-bottom: 0;
   font-size: 2.5em;
 }
 
@@ -63,7 +64,19 @@ a {
   content: 'One';
 }
 
+.tip-details {
+  margin-top: 0;
+}
+
 /* References */
+.reference {
+  color: gray;
+  font-size: .9em;
+}
+
+.ref-item {
+  font-size: .8em;
+}
 
 /* Footer */
 

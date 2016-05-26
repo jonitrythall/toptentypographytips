@@ -11,20 +11,30 @@
 }
 
 body {
-  margin: 0 auto;
   font-family: 'charterregular', serif;
-  width: 85%;
+  font-size: 1.4em;
+  line-height: 1.4;
+  background: #F9F5E9;
 }
 
 .display {
   font-family: 'Khula', sans-serif;
+  font-size: 4em;
+}
+
+.content {
+  margin: 0 auto;
+  width: 85%;
 }
 
 /* Heading */
 .primary-heading {
 }
 
-/* Content */
+/* Main Content */
+ol li {
+  margin-top: 2em;
+}
 
 /* Footer */
 

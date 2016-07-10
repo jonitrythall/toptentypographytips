@@ -1,29 +1,23 @@
 /* Mobile First */
 
 /* General */
-@font-face {
-  font-family: 'charterregular';
-  src: url('font/charter_regular-webfont.eot');
-  src: url('font/charter_regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('font/charter_regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
-  font-family: 'charterregular', serif;
+  font-family: 'Questrial', sans-serif;
   font-size: 1.5em;
   line-height: 1.4;
-  background: #F9F5E9;
 }
 
 a {
-  color: #C9AB69;
+  color: #FE8064;
   text-decoration: none;
 }
 
+a:hover {
+  color: #35BEF4;
+}
+
 .display {
-  font-family: 'Khula', sans-serif;
+  font-family: 'Patua One', serif;
   font-size: 4em;
 }
 
@@ -45,18 +39,17 @@ a {
 
 .intro {
   font-size: .8em;
-  color: gray;
 }
 
 /* Main Content */
 .tip {
   margin-bottom: 0;
-  font-size: 2.5em;
+  font-size: 1.4em;
 }
 
 .tip:before {
   display: block;
-  color: #EF6A4C;
+  color: #35BEF4;
   text-decoration: overline;
 }
 

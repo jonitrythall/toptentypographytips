@@ -13,7 +13,7 @@ a {
 }
 
 a:hover {
-  color: #35BEF4;
+  color: gray;
 }
 
 .display {
@@ -55,6 +55,11 @@ a:hover {
 
 .tip-1:before {
   content: 'One';
+}
+
+.tip-0:before {
+  content: 'Other Neat Things';
+  color: gray;
 }
 
 .tip-details {

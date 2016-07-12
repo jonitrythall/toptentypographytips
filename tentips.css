@@ -57,6 +57,10 @@ a:hover {
   content: 'One';
 }
 
+.tip-6:before {
+  content: 'Six';
+}
+
 .tip-0:before {
   content: 'Other Neat Things';
   color: gray;

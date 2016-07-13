@@ -13,7 +13,11 @@ a {
 }
 
 a:hover {
-  color: gray;
+  color: #fe9780;
+}
+
+section {
+  margin-bottom: 3em;
 }
 
 .display {
@@ -48,6 +52,7 @@ a:hover {
 }
 
 .tip:before {
+  margin-bottom: .3em;
   display: block;
   color: #35BEF4;
   text-decoration: overline;
@@ -57,8 +62,40 @@ a:hover {
   content: 'One';
 }
 
+.tip-2:before {
+  content: 'Two';
+}
+
+.tip-3:before {
+  content: 'Three';
+}
+
+.tip-4:before {
+  content: 'Four';
+}
+
+.tip-5:before {
+  content: 'Five';
+}
+
 .tip-6:before {
   content: 'Six';
+}
+
+.tip-7:before {
+  content: 'Seven';
+}
+
+.tip-8:before {
+  content: 'Eight';
+}
+
+.tip-9:before {
+  content: 'Nine';
+}
+
+.tip-10:before {
+  content: 'Ten';
 }
 
 .tip-0:before {

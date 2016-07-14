@@ -2,18 +2,24 @@
 
 /* General */
 body {
-  font-family: 'Questrial', sans-serif;
+  margin: 2em auto;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   line-height: 1.4;
+  width: 95%;
 }
 
 a {
-  color: #FE8064;
+  color: #137492;
   text-decoration: none;
 }
 
 a:hover {
-  color: #fe9780;
+  color: #15354B;
+}
+
+header {
+  margin-bottom: 4em;
 }
 
 section {
@@ -38,10 +44,11 @@ section {
 .primary-heading {
   margin-bottom: 0;
   line-height: 1.15;
-  font-size: 2.3em;
+  font-size: 2em;
 }
 
 .intro {
+  margin-top: 1.5em;
   font-size: .8em;
 }
 
@@ -54,7 +61,7 @@ section {
 .tip:before {
   margin-bottom: .3em;
   display: block;
-  color: #35BEF4;
+  color: #15354B;
   text-decoration: overline;
 }
 
@@ -120,3 +127,17 @@ section {
 /* Footer */
 
 /* Responsive Desktop */
+@media (min-width: 900px) {
+  body {
+    margin-top: 3em;
+    width: 70%;
+  }
+
+  header {
+    margin-bottom: 5em;
+  }
+
+  .primary-heading {
+    font-size: 3.6em;
+  }
+}

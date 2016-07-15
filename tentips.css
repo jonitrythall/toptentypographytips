@@ -12,6 +12,7 @@ body {
 a {
   color: #137492;
   text-decoration: none;
+  font-size: .9em;
 }
 
 a:hover {
@@ -44,7 +45,7 @@ section {
 .primary-heading {
   margin-bottom: 0;
   line-height: 1.15;
-  font-size: 2em;
+  font-size: 2.4em;
 }
 
 .intro {
@@ -129,15 +130,34 @@ section {
 /* Responsive Desktop */
 @media (min-width: 900px) {
   body {
-    margin-top: 3em;
     width: 70%;
   }
 
+  a {
+    font-size: 1.1em;
+  }
+
   header {
-    margin-bottom: 5em;
+    margin-bottom: 4em;
+  }
+
+  .intro {
+    font-size: 1.1em;
   }
 
   .primary-heading {
     font-size: 3.6em;
+  }
+
+  .tip {
+    font-size: 1.8em;
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+
+  .reference {
+    font-size: 1.1em;
   }
 }

@@ -47,8 +47,9 @@ section {
 }
 
 .primary-heading {
-  line-height: 1.15;
+  line-height: 1.25;
   font-size: 2.6rem;
+  letter-spacing: .1rem;
 }
 
 /* Main Content */

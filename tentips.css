@@ -29,7 +29,7 @@ a:hover {
 }
 
 section {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 .content {
@@ -43,12 +43,12 @@ section {
 
 /* Header */
 .header {
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
 }
 
 .primary-heading {
   line-height: 1.15;
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 
 /* Main Content */
@@ -164,7 +164,7 @@ footer {
   }
 
   header {
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
   }
 
   .primary-heading {

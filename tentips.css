@@ -1,27 +1,26 @@
 /* Mobile First */
 
 /* General and base typography */
+html {
+  font-size: 16px;
+}
+
 body {
   margin: 0;
   padding: 0;
 }
 
 .content {
-  margin: 2em auto;
+  margin: 2rem auto;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
   line-height: 1.4;
   width: 95%;
-}
-
-code {
-  font-size: 115%;
 }
 
 a {
   color: #137492;
   text-decoration: none;
-  font-size: .9em;
+  font-size: 1rem;
 }
 
 a:hover {
@@ -29,12 +28,8 @@ a:hover {
   border-bottom: 1px solid #15354B;
 }
 
-header {
-  margin-bottom: 3.5em;
-}
-
 section {
-  margin-bottom: 3em;
+  margin-bottom: 5rem;
 }
 
 .content {
@@ -42,33 +37,32 @@ section {
   width: 85%;
 }
 
-.reference {
-  font-size: 1em;
-}
-
 .display {
   font-family: 'Patua One', serif;
 }
 
 /* Header */
+.header {
+  margin-bottom: 8rem;
+}
+
 .primary-heading {
-  margin-bottom: 0;
   line-height: 1.15;
-  font-size: 2.2em;
+  font-size: 3rem;
 }
 
 /* Main Content */
 .tip {
-  margin-bottom: 1em;
-  font-size: 1.3em;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
 }
 
 .tip:before {
-  margin-bottom: .3em;
+  margin-bottom: .3rem;
   display: block;
   color: #15354B;
   text-decoration: overline;
-  font-size: 1.5em;
+  font-size: 2.1rem;
 }
 
 .tip-1:before {
@@ -118,11 +112,11 @@ section {
 
 .tip-details {
   margin-top: 0;
-  font-size: .9em;
+  font-size: 1.1rem;
 }
 
 section:last-of-type {
-  margin-bottom: 5em;
+  margin-bottom: 8rem;
 }
 
 /* Footer */
@@ -133,7 +127,7 @@ footer {
   background: #137492;
 }
 .by-line {
-  font-size: .85em;
+  font-size: .85rem;
   color: white;
   font-family: 'Roboto', sans-serif;
 }
@@ -142,6 +136,7 @@ footer {
   color: white;
   border-bottom: none;
   font-weight: 700;
+  font-size: 1rem;
 }
 
 .by-line a:hover {
@@ -151,11 +146,11 @@ footer {
 /* References */
 .reference {
   color: gray;
-  font-size: .9em;
+  font-size: 1.2rem;
 }
 
-.ref-item {
-  font-size: .8em;
+.ref-itrem {
+  font-size: .8rem;
 }
 
 /* Desktop Styles */
@@ -165,31 +160,31 @@ footer {
   }
 
   a {
-    font-size: 1.1em;
+    font-size: 1.1rem;
   }
 
   header {
-    margin-bottom: 5em;
+    margin-bottom: 5rem;
   }
 
   .primary-heading {
-    font-size: 4em;
+    font-size: 4.5rem;
   }
 
   .tip {
-    font-size: 1.5em;
+    font-size: 1.7rem;
   }
 
   .tip:before {
-    font-size: 1.6em;
+    font-size: 2.3rem;
   }
 
   .tip-details {
-    font-size: 1.1em;
+    font-size: 1.2rem;
   }
 
   .reference {
-    font-size: 1.1em;
+    font-size: 1.3rem;
   }
 }
 

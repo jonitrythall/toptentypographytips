@@ -30,16 +30,11 @@ a:hover {
 }
 
 header {
-  margin-bottom: 3em;
+  margin-bottom: 3.5em;
 }
 
 section {
   margin-bottom: 3em;
-}
-
-.display {
-  font-family: 'Patua One', serif;
-  font-size: 4em;
 }
 
 .content {
@@ -51,17 +46,21 @@ section {
   font-size: 1em;
 }
 
+.display {
+  font-family: 'Patua One', serif;
+}
+
 /* Header */
 .primary-heading {
   margin-bottom: 0;
   line-height: 1.15;
-  font-size: 2.4em;
+  font-size: 2.2em;
 }
 
 /* Main Content */
 .tip {
   margin-bottom: 1em;
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 .tip:before {
@@ -69,6 +68,7 @@ section {
   display: block;
   color: #15354B;
   text-decoration: overline;
+  font-size: 1.5em;
 }
 
 .tip-1:before {
@@ -169,15 +169,19 @@ footer {
   }
 
   header {
-    margin-bottom: 4em;
+    margin-bottom: 5em;
   }
 
   .primary-heading {
-    font-size: 3.8em;
+    font-size: 4em;
   }
 
   .tip {
-    font-size: 1.8em;
+    font-size: 1.5em;
+  }
+
+  .tip:before {
+    font-size: 1.6em;
   }
 
   .tip-details {

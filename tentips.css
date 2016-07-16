@@ -1,7 +1,12 @@
 /* Mobile First */
 
-/* General */
+/* General and base typography */
 body {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
   margin: 2em auto;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
@@ -17,10 +22,11 @@ a {
 
 a:hover {
   color: #15354B;
+  border-bottom: 1px solid #15354B;
 }
 
 header {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 
 section {
@@ -48,14 +54,9 @@ section {
   font-size: 2.4em;
 }
 
-.intro {
-  margin-top: 1.5em;
-  font-size: .8em;
-}
-
 /* Main Content */
 .tip {
-  margin-bottom: 0;
+  margin-bottom: 1em;
   font-size: 1.4em;
 }
 
@@ -113,6 +114,34 @@ section {
 
 .tip-details {
   margin-top: 0;
+  font-size: .9em;
+}
+
+section:last-of-type {
+  margin-bottom: 5em;
+}
+
+/* Footer */
+footer {
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+  background: #137492;
+}
+.by-line {
+  font-size: .85em;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.by-line a {
+  color: white;
+  border-bottom: none;
+  font-weight: 700;
+}
+
+.by-line a:hover {
+  color: black;
 }
 
 /* References */
@@ -125,12 +154,10 @@ section {
   font-size: .8em;
 }
 
-/* Footer */
-
-/* Responsive Desktop */
+/* Desktop Styles */
 @media (min-width: 900px) {
-  body {
-    width: 70%;
+  .content {
+    width: 65%;
   }
 
   a {
@@ -141,23 +168,33 @@ section {
     margin-bottom: 4em;
   }
 
-  .intro {
-    font-size: 1.1em;
-  }
-
   .primary-heading {
-    font-size: 3.6em;
+    font-size: 3.8em;
   }
 
   .tip {
     font-size: 1.8em;
   }
 
-  p {
+  .tip-details {
     font-size: 1.1em;
   }
 
   .reference {
     font-size: 1.1em;
+  }
+}
+
+/* Huge Styles */
+@media (min-width: 1300px) {
+  .content {
+    width: 55%;
+  }
+}
+
+/* Huger Styles */
+@media (min-width: 1700px) {
+  .content {
+    width: 45%;
   }
 }

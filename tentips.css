@@ -54,7 +54,7 @@ section {
 /* Main Content */
 .tip {
   margin-bottom: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .tip:before {
@@ -62,7 +62,7 @@ section {
   display: block;
   color: #15354B;
   text-decoration: overline;
-  font-size: 2.1rem;
+  font-size: 2rem;
 }
 
 .tip-1:before {
@@ -156,7 +156,7 @@ footer {
 /* Desktop Styles */
 @media (min-width: 900px) {
   .content {
-    width: 65%;
+    width: 60%;
   }
 
   a {
@@ -168,7 +168,7 @@ footer {
   }
 
   .primary-heading {
-    font-size: 4.5rem;
+    font-size: 5.5rem;
   }
 
   .tip {

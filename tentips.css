@@ -14,6 +14,10 @@ body {
   width: 95%;
 }
 
+code {
+  font-size: 115%;
+}
+
 a {
   color: #137492;
   text-decoration: none;

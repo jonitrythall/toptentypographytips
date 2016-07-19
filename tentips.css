@@ -138,7 +138,7 @@ footer {
   color: white;
   border-bottom: none;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: .8rem;
 }
 
 .by-line a:hover {
@@ -152,7 +152,7 @@ footer {
   letter-spacing: .02rem;
 }
 
-.ref-itrem {
+.ref-item {
   font-size: .8rem;
 }
 
